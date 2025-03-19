@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .nav-container a {
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+            color: #007BFF;
+            transition: 0.3s;
+        }
+        .nav-container a:hover {
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav-container">
+        <a href="/tasks">Tasks</a>
+        <a href="/slides">Slides</a>
+        <a href="/flashcards">Flashcards</a>
+    </div>
+
+</body>
+</html>
